@@ -1,0 +1,19 @@
+{% extends 'analytics/base.html' %}
+
+{% block title %}Average Order Cost by Supplier{% endblock %}
+
+{% block content %}
+<h2>Average Order Cost by Supplier</h2>
+<table>
+    <tr>
+        <th>Supplier Name</th>
+        <th>Average Cost</th>
+    </tr>
+    {% for item in data %}
+    <tr>
+        <td>{{ item.supplier__name }}</td>
+        <td>{{ item.average_cost }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}

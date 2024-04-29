@@ -1,0 +1,19 @@
+{% extends 'analytics/../base.html' %}
+
+{% block title %}Total Orders by Supplier{% endblock %}
+
+{% block content %}
+<h2>Total Orders by Supplier</h2>
+<table>
+    <tr>
+        <th>Supplier Name</th>
+        <th>Total Cost</th>
+    </tr>
+    {% for item in data %}
+    <tr>
+        <td>{{ item.supplier__name }}</td>
+        <td>{{ item.total_cost }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
