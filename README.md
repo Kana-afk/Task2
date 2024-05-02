@@ -1,6 +1,7 @@
 
 Project Data Models
 ![image](https://github.com/Kana-afk/Task2/assets/73513054/3f03d7f4-a28e-44a1-9d14-b2ee796cf4d6)
+Django Rest Api framework
 ![image](https://github.com/Kana-afk/Task2/assets/73513054/3a2d110c-448d-4484-964b-7908653ef1c0)
 ### Supplier
 
